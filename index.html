@@ -5,8 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Wiki</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/article.css">
 </head>
 <body>
-    
+    <header class="header-container">
+        <div class="header-content">
+            <figure class="logo-figure">
+                <img src="images/logo.png" 
+                alt="Logo" 
+                height="60"
+                width="60">
+                <figcaption class="logo-caption">My Wikipedia</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section>
+            <h1 class="title">HTML</h1>
+            <div id="site-sub">Origem: Wikipédia, a enciclopédia livre.</div>
+            
+            <p class="paragraph"><strong>HTML</strong> (abreviação para a <a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_inglesa" target="_blank">expressão inglesa</a> <strong><em>HyperText Markup Language</em></strong>, que significa: "<em>Linguagem de Marcação de Hipertexto</em>") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+            
+            <p class="paragraph">HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.</p>
+            
+            <p class="paragraph">SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.</p>
+        </section>
+
+        <section class="index">
+            <h2 class="title-index">Index</h2>
+
+            <ul class="list-index">
+                <li><a href="#historia">História</a></li>
+                <li><a href="#marcas">Marcas (tags)</a></li>
+                <li><a href="#edição">Edição de documentos HTML</a></li>
+            </ul>
+        </section>
+            
+        <section>
+            <h2 class="sub-title" id="historia">História</h2>
+            
+            <div class="tright">
+                <figure class="article-figure">
+                    <img src="images/teeberners.jpg" alt="Tim Berners em 2018">
+                    <figcaption class="article-fig-caption">Tim Berners em 2018.</figcaption>
+                </figure>
+            </div>
+                
+            <p class="paragraph">Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.</p>
+            
+            <p class="paragraph">As primeiras versões do HTML foram definidas com regras sintáticas flexíveis, o que ajudou aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de ferramentas para autoria de HTML aumentou, assim como a tendência em tornar a sintaxe cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código HTML válido.</p>
+
+            <p class="paragraph">A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World Wide Web Consortium (W3C).<sup>[1]</sup> Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 pelo W3C. Uma errata ainda foi lançada em 2001.</p>
+
+            <p class="paragraph">Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação HTML baseada em XML que é considerada pela W3C como um sucessor do HTML.<sup>[2][3][4]</sup> O XHTML faz uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado e estendido.</p>
+            <p class="paragraph">Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.<sup>[5]</sup></p>
+        </section>
+
+        <section>
+            <h2 class="sub-title" id="marcas">Marcas (tags)</h2>
+
+            <p class="paragraph">Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares (chevron) (<code class="code">&lt;</code> e <code class="code">&gt;</code>); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Exemplo de um elemento simples (não possui filhos):</p>
+        </section>
+
+        <section>
+            <h2 class="sub-title" id="edição">Edição de documentos HTML</h2>
+
+            <p class="paragraph">Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos comum, como o Bloco de Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a produção de documentos, no mercado existem editores HTML específicos, com recursos sofisticados, que facilitam a realização de tarefas repetitivas, inserção de objetos, elaboração de tabelas e outros recursos (Ver lista abaixo). Basicamente dividem-se em dois tipos:</p>
+
+            <ul class="list">
+                <li>Editores de texto fonte: inserem automaticamente os marcadores, orientando a inserção de atributos e marcações</li>
+                <li>Editores WYSIWYG: oferecem ambiente de edição com um "esboço" resultado final das marcações</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <a href="#">Voltar ao Topo</a>
+    </footer>
 </body>
 </html>

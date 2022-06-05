@@ -1,0 +1,99 @@
+h2 {
+    margin-bottom: 0.25em;
+    padding: 0;
+    font-family: 'Linux Libertine', 'Georgia', 'Times';
+    line-height: 1.3;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.index {
+    margin: .5em 0;
+    padding: .2em .5em;
+    background-color: #eaecf0;
+    border: 1px solid #a2a9b1;
+    width: 50%;
+    min-width: 300px;
+    line-height: 1.8;
+}
+
+.title-index {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1em 0 0;
+    border-bottom: none;
+}
+
+.list-index {
+    list-style-type: decimal;
+}
+
+.main-container {
+    margin: 12px auto;
+    padding: 0 12px;
+    max-width: 40em;
+    color: #202122;
+}
+
+.title {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 1.3;
+    word-break: break-word;
+    padding: 0;
+    margin: 0.25em 0;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+#site-sub {
+    font-size: 14.72px;
+    font-weight: normal;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: calc(1em * 0.875);
+    margin: .5em 0 1em 0;
+}
+
+.code {
+    border-radius: 2px;
+    padding: 1px 4px;
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #eaecf0;
+    font-family: monospace;
+}
+
+.list {
+    padding: 0;
+    margin: 0.3em 0 0 1.6em;
+}
+
+.article-figure {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+    overflow: hidden;
+    width: 222px;
+}
+
+.tright {
+    border: none;
+    margin: .5em 0 .8em 1.4em;
+    float: right;
+}
+
+.article-fig-caption {
+    border: 0;
+    font-size: 94%;
+    line-height: 1.4em;
+    padding: 3px;
+    text-align: left;
+}
